@@ -1,0 +1,93 @@
+/* navbar.css */
+
+/* Navbar Styles */
+.taskbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--taskbar-bg-color);
+    border-top: 2px solid var(--taskbar-border-color);
+    box-shadow: inset 1px 1px #fff, inset -1px -1px #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    height: 40px;
+}
+
+.taskbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.taskbar li {
+    display: flex;
+    align-items: center;
+}
+
+.taskbar a {
+    text-decoration: none;
+    color: var(--taskbar-link-color);
+    font-size: 1em;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--taskbar-border-color);
+    box-shadow: 1px 1px 0 var(--button-shadow-color), -1px -1px 0 var(--button-border-color);
+    background-color: var(--taskbar-bg-color);
+    margin: 0 2px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.taskbar img {
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+}
+
+.taskbar a:hover {
+    background-color: var(--taskbar-link-hover-bg-color);
+    color: var(--taskbar-link-hover-text-color);
+}
+
+/* Dropdown Styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--taskbar-bg-color);
+    min-width: 160px;
+    box-shadow: 1px 1px 0 var(--button-shadow-color), -1px -1px 0 var(--button-border-color);
+    z-index: 1;
+    top: -50px; /* Adjust this value to position above */
+}
+
+.dropdown-content a {
+    color: var(--taskbar-link-color);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--taskbar-link-hover-bg-color);
+    color: var(--taskbar-link-hover-text-color);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Taskbar Clock */
+.clock {
+    margin-right: 10px;
+    font-family: var(--font-family);
+    color: var(--text-color);
+}

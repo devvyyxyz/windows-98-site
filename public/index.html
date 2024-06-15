@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="navbar-placeholder"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function(){
+            $("#navbar-placeholder").load("/partials/navbar.html");
+        });
+    </script>
+
+    <main class="window">
+        <div class="title-bar">
+            <div class="title-bar-text">Home</div>
+            <div class="title-bar-controls">
+                <button aria-label="Minimize">_</button>
+                <button aria-label="Maximize">[ ]</button>
+                <button aria-label="Close">X</button>
+            </div>
+        </div>
+        <div class="window-body">
+            <h1>Welcome to [Your Company Name]</h1>
+            <p>Your one-stop solution for all your needs. We are delighted to have you here and look forward to serving you with the best products and services.</p>
+
+            <h2>Featured Products</h2>
+            <div class="featured-products">
+                <div class="product">
+                    <img src="/assets/images/icons/accessibility_contrast.png" alt="Product 1" style="width:100px;height:100px;">
+                    <h3>Product 1</h3>
+                    <p>Our flagship product, known for its outstanding performance and quality.</p>
+                </div>
+                <div class="product">
+                    <img src="/assets/images/icons/accessibility_contrast.png" alt="Product 2" style="width:100px;height:100px;">
+                    <h3>Product 2</h3>
+                    <p>A versatile product that meets all your needs, with a sleek and modern design.</p>
+                </div>
+                <div class="product">
+                    <img src="/assets/images/icons/accessibility_contrast.png" alt="Product 3" style="width:100px;height:100px;">
+                    <h3>Product 3</h3>
+                    <p>An innovative solution designed to improve efficiency and productivity.</p>
+                </div>
+            </div>
+
+            <h2>Latest News</h2>
+            <div class="latest-news">
+                <p>Stay updated with the latest news and updates from [Your Company Name]. We are constantly innovating and improving to bring you the best.</p>
+                <img src="/assets/images/sky-and-windows-98-logo.jpg" alt="Latest News" style="width:100%;max-width:600px;height:auto;">
+            </div>
+
+            <h2>About Us</h2>
+            <p>Learn more about our mission, vision, and values. <a href="/about">Read more about us.</a></p>
+        </div>
+    </main>
+    <script src="/js/index.js"></script>
+</body>
+</html>

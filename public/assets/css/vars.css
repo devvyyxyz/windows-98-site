@@ -1,0 +1,28 @@
+/* public/assets/css/vars.css */
+
+:root {
+    --background-image: url('../images/windows-98-hills.jpg');
+    --font-family: "MS Sans Serif", Tahoma, Geneva, sans-serif;
+    --text-color: #000;
+    --window-bg-color: #c0c0c0;
+    --window-border-color: #000;
+    --window-shadow-color: #808080;
+    --title-bar-bg-color: #000080;
+    --title-bar-text-color: white;
+    --button-bg-color: #c0c0c0;
+    --button-border-color: #808080;
+    --button-shadow-color: #fff;
+    --button-active-bg-color: #808080;
+    --header-bg-color: #000080;
+    --header-text-color: white;
+    --marquee-text-color: #ff0000;
+    --footer-bg-color: #000080;
+    --footer-text-color: white;
+    --taskbar-bg-color: #c0c0c0;
+    --taskbar-border-color: #808080;
+    --taskbar-link-color: #000;
+    --taskbar-link-hover-bg-color: #000080;
+    --taskbar-link-hover-text-color: #fff;
+    --selection-bg-color: #000080;
+    --selection-text-color: white;
+}

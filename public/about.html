@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="navbar-placeholder"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function(){
+            $("#navbar-placeholder").load("/partials/navbar.html");
+        });
+    </script>
+
+    <main class="window">
+        <div class="title-bar">
+            <div class="title-bar-text">About Us</div>
+            <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close"></button>
+            </div>
+        </div>
+        <div class="window-body">
+            <h1>About Our Company</h1>
+            <p>Welcome to [Your Company Name], where innovation meets excellence. We are dedicated to providing top-notch services and products to our customers. Our journey began with a simple idea, and today we are a leading name in the industry.</p>
+
+            <h2>Our Mission</h2>
+            <p>Our mission is to deliver high-quality solutions that bring value to our customers. We strive to exceed expectations and set new standards in the industry. We are committed to continuous improvement and innovation.</p>
+
+            <h2>Our Vision</h2>
+            <p>We envision a world where our solutions make life easier and more enjoyable. We aim to be a global leader, known for our quality, reliability, and customer-centric approach.</p>
+
+            <h2>Our Values</h2>
+            <ul>
+                <li><strong>Customer Satisfaction:</strong> Our customers are at the heart of everything we do. We listen to their needs and work tirelessly to meet them.</li>
+                <li><strong>Innovation:</strong> We embrace change and constantly seek new ways to improve our products and services.</li>
+                <li><strong>Integrity:</strong> We conduct our business with the highest level of integrity, ensuring honesty and fairness in all our dealings.</li>
+                <li><strong>Teamwork:</strong> We believe in the power of collaboration. Our team works together to achieve common goals and deliver exceptional results.</li>
+            </ul>
+
+            <h2>Our Team</h2>
+            <p>We are proud of our diverse and talented team. Our employees are our greatest asset, and their dedication and expertise drive our success. We foster a culture of respect, inclusivity, and continuous learning.</p>
+
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to learn more about our services, please feel free to <a href="/contact">contact us</a>. We are here to assist you and look forward to hearing from you.</p>
+        </div>
+    </main>
+</body>
+</html>
