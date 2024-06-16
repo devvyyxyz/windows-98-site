@@ -1,5 +1,5 @@
 # Windows 98 Theme Web Application
-
+![VHS Video and Image Creator](project.jpg)
 Welcome to the Windows 98 Theme Web Application! This project aims to replicate the nostalgic look and feel of the classic Windows 98 operating system on a web interface.
 
 ## Description
